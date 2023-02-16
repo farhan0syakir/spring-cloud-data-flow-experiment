@@ -1,12 +1,16 @@
 # spring-cloud-data-flow-experiment
 
 ## todo
+#### SCDF
 - [x] install spring cloud data flow
-- [ ] import kafka-postgres prebuilt app
+- [x] import kafka-postgres prebuilt app
 - [ ] running example dsl
 - [ ] using git sync
 - [ ] using spring batch
 
+### JFROG
+- [x] install JFROG
+- [ ] deploy something there
 
 ## Keywords
 java dsl
