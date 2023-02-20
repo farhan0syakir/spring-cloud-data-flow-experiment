@@ -4,6 +4,7 @@
 #### SCDF
 - [x] install spring cloud data flow
 - [x] import kafka-postgres prebuilt app
+- [ ] register custom app
 - [ ] running example dsl
 - [ ] using git sync
 - [ ] using spring batch
