@@ -2,7 +2,8 @@
 
 ## todo
 #### SCDF
-- [ ] run kafka
+- [x] run kafka
+- [ ] run kafka UI
 - [x] install spring cloud data flow
 - [ ] install spring cloud data flow manually
 - [x] import kafka-postgres prebuilt app

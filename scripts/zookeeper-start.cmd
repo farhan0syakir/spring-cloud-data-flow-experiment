@@ -1,0 +1,1 @@
+RefreshEnv.cmd && zookeeper-server-start.bat zookeeper.properties
