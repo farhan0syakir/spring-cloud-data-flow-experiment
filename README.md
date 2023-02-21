@@ -2,10 +2,13 @@
 
 ## todo
 #### SCDF
+- [ ] run kafka
 - [x] install spring cloud data flow
+- [ ] install spring cloud data flow manually
 - [x] import kafka-postgres prebuilt app
+- [x] create stream example dsl
+- [ ] deploy stream example dsl
 - [ ] register custom app
-- [ ] running example dsl
 - [ ] using git sync
 - [ ] using spring batch
 
