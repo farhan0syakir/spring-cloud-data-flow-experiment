@@ -1,8 +1,16 @@
 # Installation
 ## Install Spring Cloud Data Flow
+export HOST_MOUNT_PATH=~/.m2
+export DOCKER_MOUNT_PATH=/root/.m2/
+export HOST_MOUNT_PATH=/tmp/myapps
+export DATAFLOW_VERSION=2.10.0
+export SKIPPER_VERSION=2.9.0
+
 wget -O docker-compose.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose.yml;
-wget -O docker-compose-<broker>.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose-kafka.yml;
-wget -O docker-compose-<database>.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose-postgres.yml;
+wget -O docker-compose-kafka.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose-kafka.yml;
+wget -O docker-compose-postgres.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose-postgres.yml;
+
+docker-compose -f docker-compose.yml -f docker-compose-<broker>.yml -f docker-compose-<database>.yml up
 
 ## JFROG
 Source: https://www.jfrog.com/confluence/display/JFROG/Installing+Artifactory#InstallingArtifactory-DockerInstallation
