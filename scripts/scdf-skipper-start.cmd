@@ -1,0 +1,1 @@
+java -jar ../jar/spring-cloud-skipper-server-2.9.0.jar

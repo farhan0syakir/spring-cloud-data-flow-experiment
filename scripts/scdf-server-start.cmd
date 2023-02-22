@@ -1,0 +1,1 @@
+java -jar ../jar/spring-cloud-dataflow-server-2.10.0.jar
