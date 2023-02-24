@@ -9,6 +9,7 @@
 - [x] import kafka-postgres prebuilt app
 - [x] create stream example dsl
 - [x] deploy stream example dsl
+- [ ] use 1 settings.gradle
 - [ ] test local custom app
 - [ ] register custom app
 - [ ] using git sync
