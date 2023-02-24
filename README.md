@@ -9,6 +9,7 @@
 - [x] import kafka-postgres prebuilt app
 - [x] create stream example dsl
 - [x] deploy stream example dsl
+- [ ] test local custom app
 - [ ] register custom app
 - [ ] using git sync
 - [ ] using spring batch
@@ -27,3 +28,9 @@ urls
 Integration Flow?
 - explore integration flow GUI?
 - https://github.com/livelessons-spring/building-microservices/tree/master/livelessons-integration
+
+## Run
+### MyFunction
+1. Running my function
+2. then push to kafka topic
+3. watch the output
