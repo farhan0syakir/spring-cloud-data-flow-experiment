@@ -17,7 +17,7 @@
 
 ### JFROG
 - [x] install JFROG
-- [ ] deploy something there
+- [x] deploy something there
 
 ## Keywords
 java dsl
