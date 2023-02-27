@@ -19,6 +19,10 @@
 - [x] install JFROG
 - [x] deploy something there
 
+### JMS MQ
+- [ ] deploy local
+- [ ] run app using binder
+
 ## Keywords
 java dsl
 urls
