@@ -35,3 +35,8 @@ Integration Flow?
 1. Running my function
 2. then push to kafka topic
 3. watch the output
+
+
+### Integration flow
+- [ ] run integration flow
+- [ ] integration flow JMS 
