@@ -1,7 +1,7 @@
 plugins {
+	id 'org.springframework.boot' version '2.6.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
-	id 'org.springframework.boot' version '2.7.9'
-	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
 group = 'com.myexample'
@@ -19,10 +19,9 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-integration'
-	compileOnly 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'org.springframework.integration:spring-integration-file'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.integration:spring-integration-test'
 }
@@ -30,3 +29,4 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
