@@ -37,6 +37,7 @@ Integration Flow?
 3. watch the output
 
 
-### Integration flow
-- [ ] run integration flow
-- [ ] integration flow JMS 
+## Integration flow
+- [x] run integration flow
+- [x] integration flow JMS
+- [ ] send to kafka message channel?
