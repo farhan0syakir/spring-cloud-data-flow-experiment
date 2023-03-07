@@ -41,3 +41,6 @@ Integration Flow?
 - [x] run integration flow
 - [x] integration flow JMS
 - [ ] send to kafka message channel?
+- [ ] create producer
+- [ ] processor
+- [ ] consumer
