@@ -1,1 +1,1 @@
-RefreshEnv.cmd && kafka-server-start.bat server.properties
+%KAFKA_HOME%/kafka-server-start.bat server.properties
