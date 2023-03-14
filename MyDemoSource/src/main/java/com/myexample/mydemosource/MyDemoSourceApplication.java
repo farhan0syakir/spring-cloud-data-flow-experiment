@@ -3,12 +3,10 @@ package com.myexample.mydemosource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Supplier;
 
-@EnableScheduling
 @SpringBootApplication
 public class MyDemoSourceApplication {
     public static void main(String[] args) {

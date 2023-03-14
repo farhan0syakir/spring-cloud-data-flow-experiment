@@ -1,1 +1,4 @@
-
+spring.cloud.stream.kafka.binder:
+  brokers: localhost:9092
+  configuration:
+    connections.max.idle.ms: 123123123
