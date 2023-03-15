@@ -18,6 +18,7 @@
 ### JFROG
 - [x] install JFROG
 - [x] deploy something there
+- [ ] deploy via docker gradle?
 
 ## Keywords
 java dsl
