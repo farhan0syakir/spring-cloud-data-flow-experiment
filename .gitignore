@@ -1,2 +1,3 @@
 /.idea/
 /jars/
+/S3ToKafka/src/main/resources/application-workplace.yaml

@@ -1,4 +1,15 @@
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: ...
+    ssl:
+      trust-store-location: ...
+      key-store-location: ...
+      trust-store-password: ...
+      key-store-password: ...
+    security:
+      protocol: SSL
 
+application:
+  configs:
+    topic:
+      name: sandBox-0
